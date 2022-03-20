@@ -1,0 +1,36 @@
+#XiaoMi-head{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	width: 1214px;
+	justify-content: space-between;
+}
+.xiaoMI-heade-top ul{
+	line-height: 64px;
+	padding: 0;
+	margin-left: 10px;
+}
+.xiaoMI-heade-top li{
+	float: left;
+	margin-left:20px ;
+}
+.seacher{
+	margin-top: 15px;
+	margin-right: 0;
+}
+.seacher input{
+	height: 30px;
+	width: 200px;
+}
+.seacher-sgin{
+	width: 35px;
+	height: 34px;
+	float: right;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.seacher-sgin:hover{
+	cursor: pointer;
+	background-color: orangered;
+}

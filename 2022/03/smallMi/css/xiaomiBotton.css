@@ -1,0 +1,99 @@
+.Xiaomi-bottom{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.Xiaomi-bottom .bottom-thead ul{
+	width: 1215px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Xiaomi-bottom .bottom-thead ul li{
+	width: 200px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+.Xiaomi-bottom .bottom-xiaM{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	width: 1215px;
+}
+.bottom-xiaM .bottom-dl{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+}
+.bottom-dl dl{
+	width:16% ;
+	margin-left: 30px;
+}
+.bottom-dl dl dd:nth-of-type(1){
+	margin-top: 20px;
+}
+.bottom-dl dl dd{
+	margin-top:10px ;
+	font-size: 10px;
+}
+.bottom-dl dl dt{
+	font-size: 15px;
+}
+.bottom-dl dl dd a:hover{
+	color: red;
+}
+hr{
+	opacity: 0.3;
+}
+
+.erwma{
+	text-align: center;
+}
+.erwma .botton-number{
+	margin-top: 40px;
+}
+.botton-number h2{
+	margin: 0;
+	color: red;
+}
+.erwma div{
+	padding: 2px;
+}
+.erwma div:nth-of-type(2){
+	font-size: 13px;
+}
+.mui-btn{
+	margin: 5px;
+	width: 100px;
+	height: 30px;
+	font-weight: 300;
+	cursor:pointer;
+}
+.mui-btn-blue{
+	border:1px solid red;
+	background-color: white;
+	color: red;
+}
+.mui-btn:hover{
+	background-color: orangered;
+	color: white;
+}
+.erwma div:nth-last-of-type(1){
+	font-size: 10px;
+}
+.bottom-tubiao img{
+	width: 20px;
+	height: 20px;
+	margin-left: 7px;
+}
+.bottom-erwma{
+	width: 100px;
+	height: 100px;
+	float: right;
+}

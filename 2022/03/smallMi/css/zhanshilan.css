@@ -1,0 +1,150 @@
+.zhanshilan-title .Choese1{
+	margin-right: 20px;
+}
+.zhanshilan-title .Choese1{
+	color: red;
+	text-decoration: underline;
+}
+.zhanshilan-title .Choese1-1{
+	margin-right: 20px;
+	color: red;
+	text-decoration: underline;
+}
+.Xiaomi-product-zineg .product-ci .img{
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+}
+.Xiaomi-product-zineg .product-ci-botton .product-ci:nth-last-of-type(1){
+	height: 142px;
+}
+.product-ci-botton .product-end .img1{
+	width: 80px;
+	height: 80px;
+	margin-top: -70px;
+	float: right;
+}
+.product-end .product-end-mini{
+	text-align: start;
+	margin-left: 35px;
+	margin-top: 35px;
+	line-height: 25px;
+}
+.product-end .product-end-mini p{
+	color: red;
+}
+.product-end .product-end-mini span{
+	color: black;
+}
+
+/* 电脑平板区 */
+.zhanshilan-title .Choese-1 a{
+	color: red;
+	text-decoration: underline;
+}
+.Xiaomi-zhanshilan-computer .product-ci p{
+	height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Xiaomi-zhanshilan-computer .product-ci .img1{
+	margin-top: -110px;
+}
+.Xiaomi-zhanshilan-computer .product-end-mini div{
+	width: 100px;
+	font-size: small;
+}
+.Xiaomi-zhanshilan-computer .product-end-mini p{
+	margin-top: -25px;
+}
+
+/* 家电 */
+.Xiaomi-zhanshilan-jiadian .product-end-mini div{
+	width: 100px;
+	font-size: small;
+}
+.Xiaomi-zhanshilan-jiadian .product-end-mini p{
+	margin-top: -25px;
+}
+
+/* 生活电器 */
+.first-product{
+	width: 250px;
+}
+.first-product .first-product-img{
+	width: 250px;
+	height: 295px;
+}
+.first-product div:nth-last-of-type(1){
+	margin-top: 11px;
+}
+.first-product div{
+	height: 295px;
+}
+.first-product div:hover{
+	box-shadow: 0 0 5px black;
+}
+.zhanshilan-title .Choese1-x{
+	text-decoration: none;
+	color: black;
+	margin-right: 20px;
+}
+.first-product .first-div{
+	transition: all ease-out .6s;
+}
+.first-product .first-div:hover{
+	transform: scale(1.02);
+}
+
+
+/* 视频 */
+.Xiaomi-zhanshilan-SP ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.PC{
+	width: 266px;
+	height: 240px;
+	margin-bottom: 40px;
+	background-color: white;
+	transition: all ease-out .6s;
+}
+.PC:hover{
+	transform: scale(1.02);
+}
+.pcimg img{
+	width: 266px;
+	height: 159px;
+}
+.PC p{
+	text-align: center;
+	margin-top: 30px;
+}
+.pcimg{
+	position: relative;
+}
+.PCplay{
+	
+}
+.pcrow{
+	position: absolute;
+	width: 30px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid white;
+	background-color: #1f1f1f;
+	bottom: 15px;
+	left: 10px;
+}
+.pcsanj{
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-top-color: transparent;
+	border-left-color: white;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	margin-left: 13px;
+	margin-top: 1px;
+}

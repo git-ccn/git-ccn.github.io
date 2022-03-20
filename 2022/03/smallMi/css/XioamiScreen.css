@@ -1,0 +1,97 @@
+#Xiaomi-screen{
+	margin-top: 20px;
+	height: 475px;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-around; */
+}
+/* 导航栏 */
+.Xiaomi-dhl{
+	width: 250px;
+	background-color:gray;
+}
+.Xiaomi-dhl ul li{
+	/* margin-top: 15px; */
+	padding-left: 15%;
+	height: 48px;
+	line-height: 45px;
+}
+.Xiaomi-dhl span{
+	float: right;
+	margin-right: 15%;
+}
+.Xiaomi-dhl li:hover{
+	background-color: orange;
+}
+
+/* 轮播图 */
+.Xiaomi-lbt .lbo-Img{
+	position: relative;
+	overflow: hidden;
+	height: 475px;
+	width: 968px;
+}
+.Xiaomi-lbt{
+	position: relative;
+}
+.Xiaomi-lbt img{
+	height: 475px;
+	width: 968px;
+}
+.lbo-img{
+	width: 400%;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 0;
+}
+.lbt-left{
+	opacity: 0.3;
+	top: 250px;
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	color: #808080;
+	line-height: 70px;
+	text-align: center;
+	font-size: 50px;
+	cursor: pointer;
+	font-weight: 100;
+	border: none;
+	
+}
+.lbt-right{
+	border: none;
+	opacity: 0.3;
+	left: 918px;
+	top: 250px;
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	color: #808080;
+	line-height: 70px;
+	text-align: center;
+	font-size: 50px;
+	cursor: pointer;
+	font-weight: 100;
+}
+.Xiaomi-lbt .lbt-left:hover,.lbt-right:hover{
+	background-color: #5b5b5b;
+}
+.lbo-Row{
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+}
+.lbo-row li{
+	list-style: circle;
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.lbo-row .row{
+	list-style: disc;
+}
+.lbo-row li:hover{
+	list-style: disc;
+} 

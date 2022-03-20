@@ -1,0 +1,132 @@
+#fenzi-lan{
+	margin-top: 20px;
+	width: 1215px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.fenzi-lan-sever{
+	width: 243px;
+	background-color:gray;
+}
+.fenzi-lan-1{
+	width: 300px;
+	height: 150px;
+}
+.fenzi-lan-1 img{
+	width: 300px;
+	height: 150px;
+}
+.fenzi-lan-sever ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.fenzi-lan-sever a{
+	width: 81px;
+	height: 75px;
+	text-align: center;
+	line-height: 13px;
+	font-size: 10px;
+	color: #d6d6d6;
+}
+.fenzi-lan-sever li{
+	margin-top: 20px;
+	width: 83px;
+	border-left: 1px solid gainsboro;
+}
+.fenzi-lan-sever li img{
+	width: 30px;
+	height: 30px;
+}
+.fenzi-lan-sever a:hover{
+	color: white;
+}
+
+/* 新商品展示栏 */
+.new-Xiaomi img{
+	margin-top: 20px;
+	width: 1215px;
+}
+.zhanshilan-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1215px;
+	margin-top: 40px;
+}
+.zhanshilan-title h2{
+	margin: 0;
+	font-weight: 500;
+}
+.zhanshilan-title a:hover{
+	color: #a30000;
+}
+.Xiaomi-product-zineg{
+	display: flex;
+	flex-direction: row;
+}
+.first-product-right{
+	position: relative;
+	height: 600px;
+	width: 970px;
+}
+.zhanl-2{
+	display: none;
+	height: 600px;
+	width: 970px;
+	position: absolute;
+	top: -10px;
+}
+.zhanl-1{
+	/* display: none; */
+	height: 600px;
+	width: 970px;
+	position: absolute;
+	top: -10px;
+}
+.first-product img{
+	width: 250px;
+	height: 600px;
+	float: left;
+}
+.product-ci{
+	margin-left: 11px;
+	float: left;
+	width: 230px;
+	height: 295px;
+	background-color:white;
+	line-height: 40px;
+	transition: all ease-out .6s;
+}
+.product-ci:hover{
+	box-shadow: 0 0 5px black;
+	transform: scale(1.02);
+}
+.product-ci img{
+	width: 150px;
+	height: 150px;
+	margin-top: 40px;
+}
+.c2{
+	background-color: white;
+	margin-top: 10px;
+}
+.product-ci-botton .product-ci{
+	margin-top: 11px;
+}
+.product-ci-top{
+	text-align: center;
+	margin-top: 10px;
+}
+.product-ci-botton{
+	text-align: center;
+}	
+.product-ci p{
+	margin: 0;
+	font-weight: 600;
+}
+.product-ci span{
+	color: #FF0000;
+}
+

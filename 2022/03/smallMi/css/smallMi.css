@@ -1,0 +1,50 @@
+#section{
+	height: 40px;
+	background-color: black;
+}
+#section ul{
+	font-size: 10px;
+	padding: 0;
+}
+#section ul li{
+	float: left;
+	margin-left: 10px;
+	line-height: 40px;
+}
+#section ul a{
+	color: rgb(218, 218, 218);
+}
+#section a:hover{
+	color: blue;
+}
+#section li:nth-last-of-type(3),#section li:nth-last-of-type(2){
+	float: left;
+}
+.section-right{
+	width: 250px;
+	height: 40px;
+	float: right;
+	margin-right: 10%;
+}
+.section-1{
+	margin: 0;
+}
+.shopping{
+	width: 100px;
+	height: 40px;
+	background-color: #CCCCCC;
+	float: right;
+	font-size: 13px;
+}
+.shopping img{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.shopping div{
+	float: right;
+	margin-top: 13px;
+	margin-right: 8px;
+}
+
+
+	
